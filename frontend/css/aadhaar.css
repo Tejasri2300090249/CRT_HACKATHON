@@ -1,0 +1,21 @@
+body{
+
+background:#eef2f7;
+
+font-family:Segoe UI;
+
+}
+
+.card{
+
+border-radius:20px;
+
+padding:40px;
+
+}
+
+.form-control{
+
+height:50px;
+
+}

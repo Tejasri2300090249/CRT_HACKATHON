@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PAN Validation</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/pan.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<div class="card shadow-lg p-5">
+
+<h2 class="text-center mb-4">
+
+PAN Validation
+
+</h2>
+
+<label class="mb-2">
+
+Enter PAN Number
+
+</label>
+
+<input
+
+type="text"
+
+id="pan"
+
+class="form-control"
+
+placeholder="ABCDE1234F">
+
+<br>
+
+<button
+
+class="btn btn-primary"
+
+onclick="validatePAN()">
+
+Validate PAN
+
+</button>
+
+<br>
+
+<div id="result"></div>
+
+</div>
+
+</div>
+
+<script src="js/pan.js"></script>
+
+</body>
+
+</html>
